@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+.base {
+    max-width: 90rem;
+    background:hsl(47, 88%, 63%);
+    margin: 20px auto;
+    padding: 6rem;
+    box-shadow: 1px 10px 10px rgb(210, 208, 208);
+}
+
+.container {
+    max-width: 21.25rem;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 13px;
+    box-shadow: 10px 10px 1px ;
+}
+
+.imagem-base {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    border: none;
+    background: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: hsl(0, 0%, 7%);
+    font-weight:800;
+}
+
+p {
+    color: hsl(0, 0%, 50%);
+    font-size: 1rem;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    gap: 10px;
+}
+
+figcaption {
+    color: hsl(0, 0%, 7%);
+    font-weight:800;
+    font-size: 0.8rem;
+}
+
+.imagem-greg {
+    max-width: 10%;
+}
+
+@media (max-width: 375px) {
+    .base {
+        width: 23rem;
+        padding: 80px 0px;
+    }
+    .container {
+        width: 17rem;
+    }
+}
